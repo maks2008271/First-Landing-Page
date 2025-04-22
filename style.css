@@ -33,6 +33,10 @@ ul {
     list-style:none;
 }
 
+button {
+    cursor:pointer;
+}
+
 .top {
     display:flex;
     flex-direction: column;
@@ -145,7 +149,7 @@ ul {
 }
 
 .card-description {
-    color:gray;
+    color:#4b5563;
     font-size:18px;
 }
 
@@ -211,4 +215,18 @@ ul {
     color:var(--logo-color);
     font-size:16px;
     font-family: "Roboto";
+}
+
+.footer-background {
+    background-color: var(--dark-color);
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    margin:0 auto;
+    color:var(--logo-color);
+    padding-block:50px;
 }
