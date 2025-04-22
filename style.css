@@ -94,7 +94,7 @@ ul {
     width:500px;
     height:250px;
     background-color: var(--placeholder-color);
-    color:white;
+    color:var(--logo-color);
 }
 
 .navigation-list {
@@ -103,7 +103,7 @@ ul {
 }
 
 .content-background {
-    background-color: white;
+    background-color: var(--logo-color);
 }
 
 .content {
@@ -171,4 +171,44 @@ ul {
 .quote-author {
     align-self: flex-end;
     font-size:24px;
+}
+
+.call-to-action-background {
+    background-color: var(--logo-color);
+    width:100vw;
+}
+
+.call-to-action {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+}
+
+.call-to-action-card {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:150px;
+    border-radius: 5px;
+    width:70%;
+    color:var(--logo-color);
+    background-color: var(--button-color);
+}
+
+.call-to-action-title {
+    font-weight: 700;
+    font-size:18px;
+}
+
+.call-to-action-button {
+    margin-top: 8px;
+    border:1px solid var(--logo-color);
+    border-radius: 5px;
+    padding:7px 30px;
+    font-weight: 600;
+    background-color: transparent;
+    color:var(--logo-color);
+    font-size:16px;
+    font-family: "Roboto";
 }
